@@ -1,0 +1,86 @@
+ /* CSS for styling the page */
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  background-image: url(https://www.christinacarlyle.com/wp-content/uploads/2021/05/Healthy-4th-of-July-Recipes-Cover.gif);
+  background-size: cover;
+} 
+
+.form-container {
+  background-color: burlywood;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 50px;
+}
+table, th, td {
+  border: 1px solid #ccc;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+button {
+background-color: #096964;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+transition: background-color 0.3s;
+margin: 5px;
+}
+form{
+max-width: 400px;
+margin: 5px;
+padding: 50px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #0e5691;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+}
+input{
+width: 155px;
+padding: 8px;
+margin-top: 5px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 3px;
+font-size: 16px;
+background-color: #fff;
+color: #333;
+justify-content: center;
+display: flex;
+text-align: center;
+}
+
+h1{
+font-size: 4em;
+}
+h2{
+font-size: 2em;
+}
+
